@@ -1,0 +1,27 @@
+{
+    "name": "laptopsv/mvc",
+    "description": "MVC demo",
+    "type": "project",
+    "require": {
+        "illuminate/database": "^8.70",
+        "league/plates": "^3.4",
+        "illuminate/config": "^8.70"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Router\\": "app/Router"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "mylinhpthi",
+            "email": "mylinhpthi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
