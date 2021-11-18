@@ -1,4 +1,5 @@
-echo "hello";
-echo "bonjour";
-echo "nihao";
-echo "abc";
+<?php
+use App\Router;
+require "../app/bootstrap.php";
+Router::dispatch();
+

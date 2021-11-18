@@ -1,0 +1,226 @@
+/* Made with love by Mutiullah Samim*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Cormorant+Upright:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
+.body-auth{
+background: url("../img/background/login-background.png");
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:focus{
+  background: transparent;
+}
+.form-container{
+    width: 60%;
+    margin:0 5%;
+    padding: 2rem;
+}
+.header{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 789px){
+  .form-container{
+    width: 100% !important;
+    margin:0;
+  }
+  .header h2{
+    font-size: 2.5rem !important;
+  }
+  .sub-signup a{
+      padding: 0;
+  }
+}
+.sub-signup{
+    display: flex;
+    justify-content: flex-start;
+}
+.sub-signup a{
+    text-decoration: none;
+    color: rgb(199, 190, 190);
+    font-weight: 700;
+    padding: 1px 4px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-signup a:hover{
+    color: #bb0258;
+}
+.header h2{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color:#c00707;
+}
+.header p{
+    font-size: 1.2rem;
+    opacity: .8;
+}
+.form{
+    width: 80%;
+    margin: auto;
+}
+.label{
+    font-size: 1rem;
+}
+.sub-login{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-login a{
+    text-decoration: none;
+    color: #000;
+    opacity: .8;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-login a:hover{
+    color: #bb0258;
+}
+.form-check input{
+   border-color: #f8406e;  
+}
+.form-check label{
+    font-size: 1rem;
+}
+.form-control:focus{
+    border-color: #f8406e;  
+    background-color: transparent;
+    box-shadow: none; 
+    -webkit-box-shadow: none;
+} 
+.form-control{    
+    border:none;
+    border-bottom: 1px solid #f5f82c;
+    border-radius: 0;
+    font-size: 1rem;
+    box-shadow: none; 
+    background: transparent;
+    -webkit-box-shadow: none;
+    padding-bottom:0 !important ;
+} 
+.sign-up{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.sign-up a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff2c11;
+    padding-left: 10px;
+}
+.sign-up a:hover{
+    color:#008b00
+}
+.login-box{
+    padding: 10px 20px;
+    color: #f8042c;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    background: #f0f797;
+    border: none;
+    padding:10px 2rem;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .login-box:hover {
+    background: #fff12a;
+    color: rgb(37, 30, 30);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #f8f6df,
+                0 0 25px #f8f6df,
+                0 0 50px #f8f6df,
+                0 0 100px #f8f6df;
+  }
+  
+  .login-box span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff5608);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ff5608);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ff5608);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff5608);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  
+  

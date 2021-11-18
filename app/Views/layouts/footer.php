@@ -1,149 +1,50 @@
-<footer class="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="inner-content">
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-12">
-                        <div class="footer-logo">
-                            <a href="/home">
-                                <img src="assets/images/logo/white-logo.svg" alt="#" />
-                            </a>
-                        </div>
+<section class="py-0 pt-7 bg-1000">
+
+    <div class="container">
+        <hr class="text-900" />
+        <div class="row">
+            <div class="col-6 col-md-4 col-xxl-2 col-lg-3 mb-3">
+                <h5 class="lh-lg fw-bold text-white">CONTACT</h5>
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                    <li class="lh-lg"><p class="text-200 text-decoration-none" >Address: 132, 3/2 Street, An Khanh Wall, Ninh Kieu District, Can Tho</p></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="tel:0522900583">Phone: 0522900583</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col-6 col-md-3 col-xxl-2 mb-3">
+                <h5 class="lh-lg fw-bold text-white">About us</h5>
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Yummy Company</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Menu &amp; Hot sale</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Voucher &amp; Special Offer </a></li>
+                </ul>
+            </div>
+            <div class="col-8 col-md-5 col-xxl-2 mb-3">
+                <h3 class="text-500 mb-4">Receive exclusive offers and <br />discounts in your mailbox</h3>
+                <div class="row input-group-icon mb-5">
+                    <div class="col-10"><i class="fas fa-envelope input-box-icon text-500 ms-3"></i>
+                        <input class="form-control input-box bg-800 border-0" type="email" placeholder="Enter Email" aria-label="email" />
                     </div>
-                    <div class="col-lg-9 col-md-8 col-12">
-                        <div class="footer-newsletter">
-                            <h4 class="title">
-                                Subscribe to our Newsletter
-                                <span>Get all the latest information, Sales and Offers.</span>
-                            </h4>
-                            <div class="newsletter-form-head">
-                                <form action="#" method="get" target="_blank" class="newsletter-form">
-                                    <input name="EMAIL" placeholder="Email address here..." type="email" />
-                                    <div class="button">
-                                        <button class="btn">
-                                            Subscribe<span class="dir-part"></span>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                    <div class="col-2">
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
                     </div>
                 </div>
+            </div>
+
+        </div>
+        <hr class="border border-800" />
+        <div class="row flex-center pb-3">
+            <div class="col-md-6 order-0">
+                <p class="text-200 text-center text-md-start">All rights Reserved &copy; Yummy, 2021</p>
+            </div>
+            <div class="col-md-6 order-1">
+                <p class="text-200 text-center text-md-end"> Made with&nbsp;
+                    <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#FFB30E" viewBox="0 0 16 16">
+                        <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                    </svg>&nbsp;by&nbsp;<a class="text-200 fw-bold" href="https://www.facebook.com/toitenlamylinh/" target="_blank">Yummy </a>
+                </p>
             </div>
         </div>
     </div>
 
-    <div class="footer-middle">
-        <div class="container">
-            <div class="bottom-inner">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="single-footer f-contact">
-                            <h3>Get In Touch With Us</h3>
-                            <p class="phone">Phone: +1 (900) 33 169 7720</p>
-                            <ul>
-                                <li><span>Monday-Friday: </span> 9.00 am - 8.00 pm</li>
-                                <li><span>Saturday: </span> 10.00 am - 6.00 pm</li>
-                            </ul>
-                            <p class="mail">
-                                <a href="/cdn-cgi/l/email-protection#52212722223d202612213a3d2235203b36217c313d3f"><span class="__cf_email__" data-cfemail="6e1d1b1e1e011c1a2e1d06011e091c070a1d400d0103">[email&#160;protected]</span></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="single-footer our-app">
-                            <h3>Our Mobile App</h3>
-                            <ul class="app-btn">
-                                <li>
-                                    <a href="javascript:void(0)">
-                                        <i class="lni lni-apple"></i>
-                                        <span class="small-title">Download on the</span>
-                                        <span class="big-title">App Store</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">
-                                        <i class="lni lni-play-store"></i>
-                                        <span class="small-title">Download on the</span>
-                                        <span class="big-title">Google Play</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="single-footer f-link">
-                            <h3>Information</h3>
-                            <ul>
-                                <li><a href="javascript:void(0)">About Us</a></li>
-                                <li><a href="javascript:void(0)">Contact Us</a></li>
-                                <li><a href="javascript:void(0)">Downloads</a></li>
-                                <li><a href="javascript:void(0)">Sitemap</a></li>
-                                <li><a href="javascript:void(0)">FAQs Page</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <div class="single-footer f-link">
-                            <h3>Shop Departments</h3>
-                            <ul>
-                                <li>
-                                    <a href="javascript:void(0)">Computers & Accessories</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)">Smartphones & Tablets</a>
-                                </li>
-                                <li><a href="javascript:void(0)">TV, Video & Audio</a></li>
-                                <li>
-                                    <a href="javascript:void(0)">Cameras, Photo & Video</a>
-                                </li>
-                                <li><a href="javascript:void(0)">Headphones</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="inner-content">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 col-12">
-                        <div class="payment-gateway">
-                            <span>We Accept:</span>
-                            <img src="assets/images/footer/credit-cards-footer.png" alt="#" />
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="copyright">
-                            <p>
-                                Designed and Developed by<a href="https://graygrids.com/" rel="nofollow" target="_blank">GrayGrids</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <ul class="socila">
-                            <li>
-                                <span>Follow Us On:</span>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)"><i class="lni lni-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)"><i class="lni lni-google"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+</section>
