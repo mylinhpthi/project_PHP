@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Cormorant+Upright:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
 .body-auth{
-background: url("../img/background/login-background.png");
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 70%, rgb(150, 214, 1) 100%);
 background-size: cover;
 background-repeat: no-repeat;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +13,7 @@ input:focus{
 }
 .form-container{
     width: 60%;
-    margin:0 5%;
+    margin:0 20%;
     padding: 2rem;
 }
 .header{
@@ -79,20 +80,20 @@ input:focus{
     color: #bb0258;
 }
 .form-check input{
-   border-color: #f8406e;  
+   border-color: #a2a500;  
 }
 .form-check label{
     font-size: 1rem;
 }
 .form-control:focus{
-    border-color: #f8406e;  
+    border-color: #0b8502;  
     background-color: transparent;
     box-shadow: none; 
     -webkit-box-shadow: none;
 } 
 .form-control{    
     border:none;
-    border-bottom: 1px solid #f5f82c;
+    border-bottom: 1px solid #000000;
     border-radius: 0;
     font-size: 1rem;
     box-shadow: none; 
@@ -108,11 +109,11 @@ input:focus{
 .sign-up a{
     font-weight: 700;
     text-decoration: none;
-    color: #ff2c11;
+    color: #c00707;
     padding-left: 10px;
 }
 .sign-up a:hover{
-    color:#008b00
+    color:#000700
 }
 .login-box{
     padding: 10px 20px;

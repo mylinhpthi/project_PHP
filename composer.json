@@ -1,5 +1,5 @@
 {
-    "name": "laptopsv/mvc",
+    "name": "mvc",
     "description": "MVC demo",
     "type": "project",
     "require": {
@@ -19,8 +19,8 @@
     },
     "authors": [
         {
-            "name": "mylinhpthi",
-            "email": "mylinhpthi@gmail.com"
+            "name": "admin",
+            "email": "admin@gmail.com"
         }
     ],
     "minimum-stability": "stable"

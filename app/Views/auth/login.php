@@ -12,14 +12,12 @@
           <form method="post" action="/login" class="form">
             <div class="input">
               <?php if (!empty($errors)) : ?>
-                <div class="alert alert-danger">
-                  <ul>
+                <div class="text-danger">
                     <?php
                     foreach ($errors as $err) {
-                      echo "<li>$err</li>";
+                      echo "<p>$err</p>";
                     }
                     ?>
-                  </ul>
 
                 </div>
               <?php endif; ?>
